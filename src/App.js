@@ -3,7 +3,7 @@ import './App.css';
 import Person from './Person/Person';
 
 class App extends Component {
-  render() {
+  render () {
      return (
     <div className="App">
      <h1> Hi, </h1>
@@ -12,7 +12,7 @@ class App extends Component {
      <Person name ="Krishna" age = "29"/>
     </div>
     );
-    //return React.createElement('div',null,'h1','Hi React App')
+    // return React.createElement('div',null,'h1','Hi React App')
   }
 }
 
