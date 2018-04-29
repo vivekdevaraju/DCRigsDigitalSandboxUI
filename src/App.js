@@ -57,6 +57,7 @@ class App extends Component {
      </div>
       );
       buttonStyle.backgroundColor = 'red';
+     
     }
     const classes = [];
     if(this.state.persons.length <= 2){
